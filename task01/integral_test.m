@@ -42,3 +42,5 @@ for ii=1:20
 end
 fprintf('Total time %5.5f, average %5.5f\n', sum(tNew), mean(tNew))
 fprintf('Total speedup: %5.2f\n', sum(tOld)/sum(tNew))
+
+
